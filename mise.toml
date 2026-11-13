@@ -1,0 +1,5 @@
+# Tools for scripts/verify.py and scripts/recreate.py. The clips were cut with this ffmpeg build;
+# recreate.py only reproduces identical bytes with the same version.
+[tools]
+python = "3.13"
+"conda:ffmpeg" = "8.1.2"
